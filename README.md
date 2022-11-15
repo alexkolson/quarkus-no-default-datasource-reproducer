@@ -8,6 +8,8 @@
 Each time a `GET` is made to `/hello`, a h2 database is created and one `Greeting` record is placed in it.
 The database files will be created in the root directory of this repository.
 
+This works because quarkus devservices autoconfigures a default h2 database for us, and thus we avoid the error at startup.
+
 ## How to reproduce error that prevents application from starting
 
 1. Build with `quarkus build`.
