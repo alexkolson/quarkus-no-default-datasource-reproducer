@@ -13,7 +13,7 @@ The database files will be created in the root directory of this repository.
 1. Build with `quarkus build`.
 2. Run `java -jar target/quarkus-app/quarkus-run.jar`.
 
-See error: (copied here with linebreaks for readability)
+See error:
 > Model classes are defined for the default persistence unit <default> but configured datasource <default> not found:
 > the default EntityManagerFactory will not be created. To solve this, configure the default datasource.
 > Refer to https://quarkus.io/guides/datasource for guidance.
